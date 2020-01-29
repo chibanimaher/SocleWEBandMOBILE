@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+	<parameter name="SUT" value="SUT_DEFAULT" />
+	<test name="SELENIUM_LOCAL_CHROME">
+		<parameter name="PlatForm" value="SELENIUM_LOCAL_CHROME" />
+		<classes>
+			<class name="tests.TestWebGoogle" />
+		</classes>
+	</test>
+	<test name="SELENIUM_REMOTE_CHROME">
+		<parameter name="PlatForm" value="SELENIUM_REMOTE_CHROME" />
+		<classes>
+			<class name="tests.TestWebGoogle" />
+		</classes>
+	</test>
+	<test name="SELENIUM_LOCAL_FIREFOX">
+		<parameter name="PlatForm" value="SELENIUM_LOCAL_FIREFOX" />
+		<classes>
+			<class name="tests.TestWebGoogle" />
+		</classes>
+	</test>
+	<test name="SELENIUM_REMOTE_FIREFOX">
+		<parameter name="PlatForm" value="SELENIUM_REMOTE_FIREFOX" />
+		<classes>
+			<class name="tests.TestWebGoogle" />
+		</classes>
+	</test>
+	<test name="APPIUM_ANDROID_CHROME">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_CHROME" />
+		<classes>
+			<class name="tests.TestWebGoogle" />
+		</classes>
+	</test>
+	<test name="APPIUM_IOS_SAFARI">
+		<parameter name="PlatForm" value="APPIUM_IOS_SAFARI" />
+		<classes>
+			<class name="tests.TestWebGoogle" />
+		</classes>
+	</test>
+	<test name="APPIUM_ANDROID_APPLICATION">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<test name="APPIUM_IOS_APPLICATION">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+</suite>
+

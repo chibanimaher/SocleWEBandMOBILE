@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+	<parameter name="SUT" value="${env}" />
+	<parameter name="PlatForm" value="SELENIUM_REMOTE_CHROME" />
+	<test name="SELENIUM_REMOTE_CHROME1">
+		<classes>
+			<class name="tests.TestWebGoogle" />
+		</classes>
+	</test>
+	<test name="SELENIUM_REMOTE_CHROME2">
+		<classes>
+			<class name="tests.TestWebGoogle" />
+		</classes>
+	</test>	
+</suite>
+

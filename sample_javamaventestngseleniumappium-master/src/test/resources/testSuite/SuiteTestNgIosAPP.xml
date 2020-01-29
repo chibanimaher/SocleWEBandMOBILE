@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+	<parameter name="SUT" value="SUT_DEFAULT" /> 
+	<test name="APPIUM_IOS_APPLICATION">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<!-- 
+	<test name="APPIUM_IOS_SAFARI">
+		<parameter name="PlatForm" value="APPIUM_IOS_SAFARI" />
+		<classes>
+			<class name="tests.TestWebGoogle" />
+		</classes>
+	</test>
+	-->	
+</suite>
+

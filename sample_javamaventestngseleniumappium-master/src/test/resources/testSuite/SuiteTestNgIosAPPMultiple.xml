@@ -1,0 +1,67 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+	<parameter name="SUT" value="SUT_DEFAULT" /> 
+	<test name="APPIUM_IOS_APPLICATION">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<test name="APPIUM_IOS_APPLICATION1">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<test name="APPIUM_IOS_APPLICATION2">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<test name="APPIUM_IOS_APPLICATION3">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<test name="APPIUM_IOS_APPLICATION4">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<test name="APPIUM_IOS_APPLICATION5">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<test name="APPIUM_IOS_APPLICATION6">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<test name="APPIUM_IOS_APPLICATION7">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<test name="APPIUM_IOS_APPLICATION8">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.TestAppSampleBitbar" />
+		</classes>
+	</test>
+	<!-- 
+	<test name="APPIUM_IOS_SAFARI">
+		<parameter name="PlatForm" value="APPIUM_IOS_SAFARI" />
+		<classes>
+			<class name="tests.TestWebGoogle" />
+		</classes>
+	</test>
+	-->	
+</suite>
+
